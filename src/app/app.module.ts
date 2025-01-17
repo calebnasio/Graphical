@@ -1,23 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import {BaseChartDirective, provideCharts, withDefaultRegisterables} from 'ng2-charts';
 import { LineGraphComponent } from './components/line-graph/line-graph.component';
+import { BarGraphComponent } from './components/bar-graph/bar-graph.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineGraphComponent
+    LineGraphComponent,
+    BarGraphComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BaseChartDirective
+    NgxChartsModule,
+    BrowserAnimationsModule
   ],
-  providers: [provideCharts(withDefaultRegisterables())],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
