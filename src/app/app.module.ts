@@ -6,14 +6,14 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { LineGraphComponent } from './components/line-graph/line-graph.component';
-import { BarGraphComponent } from './components/bar-graph/bar-graph.component';
+import { VerticalGraphComponent } from './components/barGraphs/vertical-graph/vertical-graph.component';
+import { HorizontalGraphComponent } from './components/barGraphs/horizontal-graph/horizontal-graph.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineGraphComponent,
-    BarGraphComponent
+    VerticalGraphComponent,
+    HorizontalGraphComponent
   ],
   imports: [
     BrowserModule,

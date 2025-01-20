@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BarGraphComponent } from './bar-graph.component';
+import { VerticalGraphComponent } from './vertical-graph.component';
 
-describe('BarGraphComponent', () => {
-  let component: BarGraphComponent;
-  let fixture: ComponentFixture<BarGraphComponent>;
+describe('LineGraphComponent', () => {
+  let component: VerticalGraphComponent;
+  let fixture: ComponentFixture<VerticalGraphComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [BarGraphComponent]
+      declarations: [VerticalGraphComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BarGraphComponent);
+    fixture = TestBed.createComponent(VerticalGraphComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
