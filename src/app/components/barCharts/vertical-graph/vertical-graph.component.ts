@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {ScaleType} from '@swimlane/ngx-charts';
-import { single } from '../data';
+import { single } from '../../data/data';
 
 @Component({
   selector: 'app-vertical-graph',
