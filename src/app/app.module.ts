@@ -14,7 +14,8 @@ import {
   TitleComponent,
   TooltipComponent,
   ToolboxComponent,
-  LegendComponent
+  LegendComponent,
+  BrushComponent,
 } from 'echarts/components';
 
 import { CanvasRenderer } from 'echarts/renderers';
@@ -28,6 +29,7 @@ echarts.use([
   TooltipComponent,
   ToolboxComponent,
   LegendComponent,
+  BrushComponent,
   CanvasRenderer,
   UniversalTransition
 ]);
