@@ -41,6 +41,7 @@ import { VerticalGraphComponent } from './components/barCharts/vertical-graph/ve
 import { HorizontalGraphComponent } from './components/barCharts/horizontal-graph/horizontal-graph.component';
 import { DonutGraphComponent } from './components/pieCharts/donut-graph/donut-graph.component';
 import { CombinedGraphComponent } from './components/barCharts/combined-graph/combined-graph.component';
+import { WaterfallGraphComponent } from './components/barCharts/waterfall-graph/waterfall-graph.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { CombinedGraphComponent } from './components/barCharts/combined-graph/co
     VerticalGraphComponent,
     HorizontalGraphComponent,
     DonutGraphComponent,
-    CombinedGraphComponent
+    CombinedGraphComponent,
+    WaterfallGraphComponent
   ],
   imports: [
     BrowserModule,
