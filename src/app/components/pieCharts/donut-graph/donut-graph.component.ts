@@ -20,6 +20,17 @@ export class DonutGraphComponent implements OnInit{
         text: 'Referer of a Website',
         subtext: 'Fake Data',
         left: 'center'
+      },toolbox: {
+        feature: {
+          dataZoom: {
+            yAxisIndex: 'none'
+          },
+          magicType: {
+            type: ['stack', 'line', 'bar']
+          },
+          restore: {},
+          saveAsImage: {}
+        }
       },
       tooltip: {
         trigger: 'item'

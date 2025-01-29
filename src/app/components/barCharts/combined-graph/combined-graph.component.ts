@@ -26,10 +26,14 @@ export class CombinedGraphComponent implements OnInit{
       },
       toolbox: {
         feature: {
-          dataView: { show: true, readOnly: false },
-          magicType: { show: true, type: ['line', 'bar'] },
-          restore: { show: true },
-          saveAsImage: { show: true }
+          dataZoom: {
+            yAxisIndex: 'none'
+          },
+          magicType: {
+            type: ['stack', 'line', 'bar']
+          },
+          restore: {},
+          saveAsImage: {}
         }
       },
       legend: {

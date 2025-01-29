@@ -19,6 +19,18 @@ export class WaterfallGraphComponent implements OnInit {
       title: {
         text: 'Accumulated Waterfall Chart'
       },
+      toolbox: {
+        feature: {
+          dataZoom: {
+            yAxisIndex: 'none'
+          },
+          magicType: {
+            type: ['stack', 'line', 'bar']
+          },
+          restore: {},
+          saveAsImage: {}
+        }
+      },
       tooltip: {
         trigger: 'axis',
         axisPointer: {

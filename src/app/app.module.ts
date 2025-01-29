@@ -15,7 +15,7 @@ import {
   TooltipComponent,
   ToolboxComponent,
   LegendComponent,
-  BrushComponent,
+  BrushComponent
 } from 'echarts/components';
 
 import { CanvasRenderer } from 'echarts/renderers';
